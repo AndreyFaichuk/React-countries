@@ -1,0 +1,246 @@
+
+.logoAndInfo{
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 15px;
+}
+
+.logoAndInfo img {
+    width: 50%;
+}
+
+.logoAndInfo h1{
+  font-size: 50px;
+}
+
+.App-header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  margin: -45px 0 0 0;
+}
+
+.search{
+  display: flex;
+  width: 26%;
+  flex-direction: column;
+}
+
+.search img{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.inputSearch{
+  width: 80%;
+  height: 30px;
+  margin: 23px 110px 0 0;
+  font-size: 22px;
+  border: none;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  outline:none;
+}
+
+.MainInfo{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #2196F3;
+  width: 90%;
+  height: 60px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.Number{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 19px;
+  width: 5%;
+  height: 60px;
+  border-right: 1px solid white;
+}
+
+.Country{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-size: 19px;
+  width: 60%;
+  height: 60px;
+  border-right: 1px solid white;
+  margin: 0 0 0 17px;
+}
+
+.TotalConfirmed{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-size: 19px;
+  height: 60px;
+  margin: 0 0 0 17px;
+}
+
+/*-----------------------------------------*/
+
+.CardsOfCountry{
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  height: 60px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  z-index: 99;
+}
+
+.NumberOfCountry{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  font-size: 19px;
+  width: 5%;
+  height: 60px;
+  border-right: 1px solid black;
+}
+
+.CountryOfCountry{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  font-size: 19px;
+  width: 60%;
+  height: 60px;
+  border-right: 1px solid black;
+  margin: 0 0 0 17px;
+}
+
+.TotalConfirmedOfCountry{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  font-size: 19px;
+  height: 60px;
+  margin: 0 0 0 17px;
+}
+
+/*--------------------------------------------*/
+
+
+.modal-background {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(10, 10, 10, 0.86);
+}
+
+.modal-card {
+  margin: 0 auto;
+  display: block;
+  margin-top: 180px;
+  width: 470px;
+  height: 350px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.InfoAboutCountries{
+  text-align: center;
+}
+
+.TotalInformation{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.TotalInformation span{
+  margin: 0 0 0 150px;
+}
+
+.TotalInformation img{
+  width: 22px;
+  height: 25px;
+  margin: 0 20px 0 20px;
+}
+
+.Total{
+  display: flex;
+  align-items: center;
+}
+
+.TotalInformation .Death{
+  margin: 0 0 0 194px;
+}
+
+.close-button{
+  display: flex;
+  justify-content: center;
+}
+
+.close-button button{
+  width: 179px;
+  height: 37px;
+  margin: -51px 0 0 0;
+  padding: 10px 0 0 0;
+  border-radius: 20px;
+  background-color: #2196F3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.load{
+  text-align: center;
+}
+
+.ElementsOfSort .Select{
+  margin: 36px 0 0 23px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  outline: none;
+}
+
+.card-reset{
+  width: 135px;
+  margin: 40px 77px 0 26px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  background-color: orangered;
+}
+
+.ElementsOfSort{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.yy{
+  display: none;
+}
